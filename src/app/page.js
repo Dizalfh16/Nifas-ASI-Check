@@ -73,9 +73,9 @@ export default function Home() {
               Jika Anda mengalami keluhan yang sangat mengganggu, pendarahan hebat, atau merasa sangat lelah secara emosional, jangan ragu untuk menghubungi atau mengunjungi fasilitas kesehatan terdekat.
             </p>
           </div>
-          <a href="#" className="btn btn-primary" style={{ flexShrink: 0 }}>
+          <Link href="/direktori" className="btn btn-primary hover-lift" style={{ flexShrink: 0, padding: '15px 30px', fontSize: '1.1rem' }}>
             Hubungi Bidan via WhatsApp
-          </a>
+          </Link>
         </div>
       </section>
 

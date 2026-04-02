@@ -10,7 +10,7 @@ export default function Navbar() {
         </Link>
         <div className="nav-links">
           <Link href="/edukasi">Edukasi</Link>
-          <a href="#nakes" className="btn btn-primary btn-sm">Hubungi Nakes</a>
+          <Link href="/direktori" className="btn btn-primary btn-sm">Hubungi Nakes</Link>
         </div>
       </div>
     </nav>
