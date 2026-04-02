@@ -1,7 +1,7 @@
 import { Plus_Jakarta_Sans } from 'next/font/google';
 import './globals.css';
 import Navbar from '../components/ui/Navbar';
-
+import Footer from '../components/ui/Footer';
 const plusJakartaSans = Plus_Jakarta_Sans({ subsets: ['latin'] });
 
 export const metadata = {
@@ -22,10 +22,7 @@ export default function RootLayout({ children }) {
         <main className="container animate-fade-in" style={{ padding: '40px 20px', minHeight: '80vh' }}>
           {children}
         </main>
-        <footer style={{ textAlign: 'center', padding: '20px', color: 'var(--text-light)', fontSize: '0.9rem', borderTop: '1px solid var(--glass-border)', marginTop: '40px' }}>
-          <p>&copy; {new Date().getFullYear()} Nifas & ASI Check. Oleh Kolaborasi Mahasiswa Kebidanan & Tim IT.</p>
-          <p style={{ fontSize: '0.8rem', marginTop: '5px' }}>🚨 Website ini bersifat edukatif dan preventif, tidak menggantikan pemeriksaan langsung oleh tenaga kesehatan.</p>
-        </footer>
+        <Footer />
       </body>
     </html>
   );
