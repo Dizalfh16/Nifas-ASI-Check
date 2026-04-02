@@ -129,6 +129,9 @@ export default function MentalScreening() {
 
   return (
     <div className="animate-fade-in" style={{ maxWidth: '850px', margin: '0 auto' }}>
+      <Link href="/" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', color: 'var(--text-light)', textDecoration: 'none', marginBottom: '15px', fontWeight: 500, padding: '8px 16px', background: 'rgba(255,255,255,0.5)', borderRadius: '20px', backdropFilter: 'blur(10px)', border: '1px solid rgba(255,255,255,0.4)', boxShadow: '0 4px 10px rgba(0,0,0,0.03)' }}>
+        <span style={{ fontSize: '1.2rem' }}>←</span> Kembali ke Beranda
+      </Link>
       <div className="text-center mb-4">
 
         <h1 style={{ color: 'var(--primary)' }}>Skrining Postpartum Blues 🧠</h1>
