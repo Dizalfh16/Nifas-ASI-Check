@@ -61,8 +61,8 @@ export default function NifasScreening() {
       <div className="glass-card animate-fade-in" style={{ maxWidth: '600px', margin: '0 auto', padding: '40px', background: 'rgba(255, 255, 255, 0.4)', backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)', border: '1px solid rgba(255, 255, 255, 0.5)', borderRadius: '24px', boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.1)' }}>
         <h2 className="text-center mb-4">Hasil Skrining Asuhan Nifas</h2>
         
-        <div style={{ position: 'relative', width: '100%', height: '250px', borderRadius: '16px', overflow: 'hidden', marginBottom: '25px', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }}>
-          <Image src="/placeholder-nifas-result.jpg" alt="Ilustrasi Hasil" fill style={{ objectFit: 'cover' }} />
+        <div style={{ position: 'relative', width: '100%', aspectRatio: '4/3', borderRadius: '16px', overflow: 'hidden', marginBottom: '25px', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }}>
+          <Image src="/assets/nifas.png" alt="Ilustrasi Hasil" fill style={{ objectFit: 'cover' }} />
         </div>
         
         {result.status === 'normal' && (
@@ -128,8 +128,8 @@ export default function NifasScreening() {
       </div>
 
       <div className="glass-card" style={{ display: 'flex', flexDirection: 'column', gap: '25px', padding: '40px', background: 'rgba(255, 255, 255, 0.4)', backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)', border: '1px solid rgba(255, 255, 255, 0.5)', borderRadius: '24px', boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.1)' }}>
-        <div style={{ position: 'relative', width: '100%', height: '200px', borderRadius: '16px', overflow: 'hidden', marginBottom: '10px', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }}>
-          <Image src="/placeholder-nifas-intro.jpg" alt="Ilustrasi Nifas" fill priority style={{ objectFit: 'cover' }} />
+        <div style={{ position: 'relative', width: '100%', aspectRatio: '4/3', borderRadius: '16px', overflow: 'hidden', marginBottom: '20px', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }}>
+          <Image src="/assets/nifas.png" alt="Ilustrasi Nifas" fill priority style={{ objectFit: 'cover' }} />
         </div>
         {questions.map((q, i) => (
           <div key={q.id} style={{ paddingBottom: '20px', borderBottom: '1px solid var(--glass-border)' }}>
