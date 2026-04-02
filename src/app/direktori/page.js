@@ -6,7 +6,7 @@ import Link from 'next/link';
 // Dummy Data
 const nakesData = [
   { id: 1, name: "Bidan Siti Aminah, S.Tr.Keb", city: "Tasikmalaya", clinic: "Klinik Bersalin Bunda Sehat", phone: "6281234567890" },
-  { id: 2, name: "Bidan Rahmawati, A.Md.Keb", city: "Tasikmalaya", clinic: "Praktik Mandiri Bidan Ria", phone: "6289876543210" },
+  { id: 2, name: "Bidan Hanifah Nur Fauziyyah A.Md.Keb", city: "Ciamis", clinic: "Praktik Mandiri", phone: "6289876543210" },
   { id: 3, name: "Bidan Kadek Arini, S.Tr.Keb", city: "Denpasar", clinic: "Rumah Bersalin Kasih Ibu", phone: "628888888888" },
   { id: 4, name: "Dr. Farah Diba, Sp.OG", city: "Jakarta Selatan", clinic: "RSIA Asih JKT", phone: "62811111111" },
   { id: 5, name: "Bidan Nurul Hidayah, A.Md.Keb", city: "Bandung", clinic: "PMB Mawar Putih", phone: "62822222222" },
