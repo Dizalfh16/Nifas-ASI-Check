@@ -5,14 +5,14 @@ import Footer from '../components/ui/Footer';
 const plusJakartaSans = Plus_Jakarta_Sans({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Nifas & ASI Check | Skrining Mandiri Ibu',
+  title: 'Nifas Healthcare | Skrining Mandiri Ibu',
   description: 'Website skrining mandiri terpadu untuk mengecek kondisi nifas, menyusui (ASI), dan kesehatan mental ibu setelah melahirkan.',
   keywords:
     "skrining nifas, skrining ASI, kesehatan ibu pasca melahirkan, skrining mandiri ibu, cek kondisi nifas, cek kondisi menyusui, skrining kesehatan mental ibu, perawatan ibu setelah melahirkan, pemantauan nifas, pemantauan ASI, kesehatan ibu menyusui, tips nifas sehat, pemeriksaan nifas, kesehatan mental pasca melahirkan, perawatan ASI ibu, pemeriksaan menyusui ibu, website skrining ibu, panduan nifas, skrining kesehatan ibu hamil, ibu setelah melahirkan",
   openGraph: {
     url: 'https://nifashealthcare.vercel.app',
-    siteName: "Nifas & ASI Check | Skrining Mandiri Ibu",
-    title: "Nifas & ASI Check | Skrining Mandiri Ibu",
+    siteName: "Nifas Healthcare | Skrining Mandiri Ibu",
+    title: "Nifas Healthcare | Skrining Mandiri Ibu",
     description:
       "Website skrining mandiri terpadu untuk mengecek kondisi nifas, menyusui (ASI), dan kesehatan mental ibu setelah melahirkan.",
     locale: "id-ID",
@@ -22,7 +22,7 @@ export const metadata = {
         url: `https://nifashealthcare.vercel.app/assets/logo.png`,
         width: 1080,
         height: 1080,
-        alt: "Nifas & ASI Check | Skrining Mandiri Ibu",
+        alt: "Nifas Healthcare | Skrining Mandiri Ibu",
       }
     ]
   },
