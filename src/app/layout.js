@@ -26,6 +26,9 @@ export const metadata = {
       }
     ]
   },
+  verification: {
+    google: "nsJ4dRqDhrMvtpyz0qLleJxQP2Sv3B3Qi7axotcIY88",
+  },
 };
 
 export default function RootLayout({ children }) {
